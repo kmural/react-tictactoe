@@ -45,41 +45,6 @@ const Board = props => {
   );
 };
 
-// class Board extends Component {
-//   renderSquare = i => {
-//     return (
-//       <Square
-//         value={this.props.squares[i]}
-//         onClick={() => this.props.onClick(i)}
-//       />
-//     );
-//   };
-
-//   render() {
-//     return (
-//       <>
-//         <div className="board-row">
-//           {/* {[0, 1, 2].map(i => this.renderSquare(i))} */}
-//           {[0, 1, 2].map(i => {
-//             return (
-//               <Square
-//                 value={this.props.squares[i]}
-//                 onClick={() => this.props.onClick(i)}
-//               />
-//             );
-//           })}
-//         </div>
-//         <div className="board-row">
-//           {[3, 4, 5].map(i => this.renderSquare(i))}
-//         </div>
-//         <div className="board-row">
-//           {[6, 7, 8].map(i => this.renderSquare(i))}
-//         </div>
-//       </>
-//     );
-//   }
-// }
-
 class Game extends Component {
   constructor(props) {
     super(props);
